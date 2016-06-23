@@ -26,12 +26,16 @@
         "window": false,
         "print" : false,
         "document" : false,
+        "describe" : false,
+        "it" : false,
+        "expect": false,
         "require": false,
         "requirejs": false,
         "define": false,
         "ko": false,
         "Expand": false,
         "LANG": false,
-        "LOADTEMPL" : false   
+        "LOADTEMPLT" : false,
+        "GUI" : false   
     }
 }

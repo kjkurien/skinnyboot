@@ -1,7 +1,10 @@
-var LOADTEMPL = (function () {
+(function (ns) {
     'use strict';
     var self = {};
    
+    self.test = function () {
+        return true;
+    };
     self.load = function () {
         var dataobj = { a: {  service : 'This is a Test', name : 'X'}};
         var dataarr = [{ b: { name : 'Box1 '}}, { b: { name : 'Box2'} }, { b: { name : 'Box3'} }];
@@ -17,6 +20,6 @@ var LOADTEMPL = (function () {
             $('#templ2holder').append(clone2);
         }
     };
-    
+    ns.LOADTEMPLT = self;
     return self;
-}());
+}(this));

@@ -4,7 +4,7 @@ define(function (require) {
     require('expand');
     var print = require('print');
     require('./lang');
-    require('./loadtempl');
-    LOADTEMPL.load();
+    require('./loadtemplt');
+    LOADTEMPLT.load();
     print('Hellow');
 });

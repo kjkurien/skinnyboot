@@ -1,12 +1,16 @@
-define(['lang'], function(l) {
+define(['lang', 'loadtemplt'], function(l) {
 
-    describe("Basic Test Spec", function() {
-        it("simple test", function() {
+    describe('Basic Test Spec', function() {
+        it('simple test', function() {
             expect(true).toBe(true);
         });
-        it("Language Get Test", function() {
+        it('Language Get Test', function() {
             var obj = {'messageen': 'Hello', 'messagefr': 'Allo'};
             expect(obj.messageen).toBe(LANG.get(obj));
-        });       
+        }); 
+
+        it('LOAD TEMPL Test', function() {
+            expect(true).toBe(LOADTEMPLT.test());
+        });             
     });
 });

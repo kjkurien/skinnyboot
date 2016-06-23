@@ -18,7 +18,8 @@ require.config({
     baseUrl: 'http://localhost:9876/base/',
     paths: {
         'jquery': '../lib/jquery.min',
-        'lang' : 'app/lang' 
+        'lang' : 'app/lang',
+        'loadtemplt' : 'app/loadtemplt'
 
     },
     // dynamically load all test files

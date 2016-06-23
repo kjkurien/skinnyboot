@@ -16,7 +16,8 @@ requirejs.config({
         app: '../app',
         jquery: '../lib/jquery.min',
         bootstrap: '../lib/bootstrap.min',
-        expand : '../lib/templating'
+        expand : '../lib/templating',
+        loadtemplt : '../app/loadtemplt'
     }
 });
 
