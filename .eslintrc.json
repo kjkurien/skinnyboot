@@ -24,10 +24,14 @@
      "globals": {
         "$": false,
         "window": false,
+        "print" : false,
+        "document" : false,
         "require": false,
         "requirejs": false,
         "define": false,
         "ko": false,
-        "LANG": false    
+        "Expand": false,
+        "LANG": false,
+        "LOADTEMPL" : false   
     }
 }
