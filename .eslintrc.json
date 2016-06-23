@@ -25,6 +25,7 @@
         "$": false,
         "window": false,
         "require": false,
+        "requirejs": false,
         "define": false,
         "ko": false,
         "LANG": false    

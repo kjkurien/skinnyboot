@@ -17,7 +17,7 @@ require.config({
     
     baseUrl: 'http://localhost:9876/base/',
     paths: {
-        'jquery': '../lib/jquery',
+        'jquery': '../lib/jquery.min',
         'lang' : 'app/lang' 
 
     },
