@@ -5,5 +5,5 @@
 /dist
 /WebContent/WEB-INF/classes
 /.apt_generated
-/node_modules/*
+/node_modules
 
