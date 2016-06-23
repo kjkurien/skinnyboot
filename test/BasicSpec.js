@@ -2,7 +2,7 @@ define(['lang'], function(l) {
 
     describe("Basic Test Spec", function() {
         it("simple test", function() {
-            expect(true).toBe(true);
+            expect(true).toBe(false);
         });
         it("Language Get Test", function() {
             var obj = {'messageen': 'Hello', 'messagefr': 'Allo'};
