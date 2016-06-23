@@ -1,0 +1,9 @@
+/bin
+/build
+*.~*
+*.class
+/dist
+/WebContent/WEB-INF/classes
+/.apt_generated
+/node_modules/*
+
